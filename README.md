@@ -11,8 +11,11 @@ Welcome to the Wallpaper App! This app allows you to browse and download a varie
 
 ## Screenshots
 
-![Home Screen](screenshots/home_screen.png)
-![Full-Screen Image](screenshots/full_screen_image.png)
+![Home Screen]([screenshots/home_screen.png](https://github.com/bunty-kumar/aesthetic_wallpaper/blob/master/home_screen.JPEG))
+![Home Screen Search Filter]([[screenshots/home_screen.png](https://github.com/bunty-kumar/aesthetic_wallpaper/blob/master/home_screen.JPEG)](https://github.com/bunty-kumar/aesthetic_wallpaper/blob/master/home_screen_search_filter.JPEG))
+![download image](https://github.com/bunty-kumar/aesthetic_wallpaper/blob/master/download_image.JPEG)
+![set wallpaper](https://github.com/bunty-kumar/aesthetic_wallpaper/blob/master/set_wallpaper_menu.JPEG)
+
 
 ## Installation
 
