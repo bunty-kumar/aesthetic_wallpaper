@@ -72,17 +72,25 @@ class _WallpaperAppState extends State<WallpaperApp> {
       wallpaperUrls.clear();
       currentPage = 1;
     });
-    fetchWallpapers("refresh");
+    if (searchController.text.isNotEmpty) {
+      searchWallpapers("refresh", searchController.text);
+    } else {
+      fetchWallpapers("refresh");
+    }
   }
 
   void _onLoading() {
     currentPage++;
-    fetchWallpapers("Loading");
+    if (searchController.text.isNotEmpty) {
+      searchWallpapers("Loading", searchController.text);
+    } else {
+      fetchWallpapers("Loading");
+    }
   }
 
   Future<void> searchWallpapers(String type, String query) async {
     const apiKey = appKey;
-    const perPage = 50;
+    const perPage = 40;
     if (type != "Loading") {
       setState(() {
         isLoading = true;

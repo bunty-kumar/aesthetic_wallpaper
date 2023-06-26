@@ -13,7 +13,7 @@ const Color disabledButtonColor = Color(0x990754a8);
 const Color redColor = Color(0xfff63939);
 
 const String appKey =
-    "OI8xixydTdHtrR9mE8luKgImeRDp3lHUCcD92p1FNMYce3o2eZGDLnzj";
+    "your_key_here";
 
 class Themes {
   static ThemeData defaultTheme = ThemeData(

@@ -34,7 +34,6 @@ class _SetWallpaperScreenState extends State<SetWallpaperScreen> {
       result = await AsyncWallpaper.setWallpaper(
         url: widget.wallpaperUrl,
         wallpaperLocation: AsyncWallpaper.HOME_SCREEN,
-        goToHome: true,
         toastDetails: ToastDetails.success(),
         errorToastDetails: ToastDetails.error(),
       )
@@ -66,7 +65,6 @@ class _SetWallpaperScreenState extends State<SetWallpaperScreen> {
       result = await AsyncWallpaper.setWallpaper(
         url: widget.wallpaperUrl,
         wallpaperLocation: AsyncWallpaper.LOCK_SCREEN,
-        goToHome: true,
         toastDetails: ToastDetails.success(),
         errorToastDetails: ToastDetails.error(),
       )
@@ -99,7 +97,6 @@ class _SetWallpaperScreenState extends State<SetWallpaperScreen> {
       result = await AsyncWallpaper.setWallpaper(
         url: widget.wallpaperUrl,
         wallpaperLocation: AsyncWallpaper.BOTH_SCREENS,
-        goToHome: true,
         toastDetails: ToastDetails.success(),
         errorToastDetails: ToastDetails.error(),
       )
