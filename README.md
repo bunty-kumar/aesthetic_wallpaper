@@ -2,6 +2,10 @@
 
 Welcome to the Wallpaper App! This app allows you to browse and download a variety of wallpapers for your device. You can search for images in different categories like nature, animals, people, and landscapes.
 
+## Demo Video
+
+Click [here](https://youtube.com/shorts/j4ID9MyL3gA?feature=share4) to watch the demo video of the Quotes app.
+
 ## Features
 
 - Browse and search wallpapers by category.
